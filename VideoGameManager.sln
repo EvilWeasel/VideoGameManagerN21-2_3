@@ -5,7 +5,9 @@ VisualStudioVersion = 17.1.32414.318
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VideoGameManager", "VideoGameManager\VideoGameManager.csproj", "{17FE3493-696C-4158-9645-0B9D2725A0BE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{36B74286-27A5-46CD-94E9-C211A1AA70CA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "ConsoleApp1\ConsoleApp1.csproj", "{36B74286-27A5-46CD-94E9-C211A1AA70CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PflegeboxAPI", "PflegeboxAPI\PflegeboxAPI.csproj", "{C25A8C39-28FE-4964-8E97-97313C8B80F5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{36B74286-27A5-46CD-94E9-C211A1AA70CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{36B74286-27A5-46CD-94E9-C211A1AA70CA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36B74286-27A5-46CD-94E9-C211A1AA70CA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C25A8C39-28FE-4964-8E97-97313C8B80F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C25A8C39-28FE-4964-8E97-97313C8B80F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C25A8C39-28FE-4964-8E97-97313C8B80F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C25A8C39-28FE-4964-8E97-97313C8B80F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

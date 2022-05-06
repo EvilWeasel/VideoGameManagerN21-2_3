@@ -7,7 +7,7 @@ namespace VideoGameManager.DataAccess
         public VideoGameDataContext(DbContextOptions<VideoGameDataContext> options) 
             : base(options)
         {
-            
+
         }
 
         public DbSet<Game> Games { get; set; }

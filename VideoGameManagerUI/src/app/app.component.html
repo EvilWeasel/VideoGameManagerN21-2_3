@@ -1,0 +1,16 @@
+<h1>VideoGames</h1>
+
+<table>
+  <thead>
+    <tr>
+      <td>ID</td>
+      <td>Name</td>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let game of games">
+      <td>{{ game.id }}</td>
+      <td>{{ game.name }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -32,6 +32,9 @@ namespace VideoGameManager
             services.AddDbContext<VideoGameDataContext>(options =>
                 options.UseSqlServer(
                     Configuration["ConnectionStrings:DefaultConnection"]));
+           
+            services.AddCors(options => options.AddDefaultPolicy(
+                builder => builder.AllowAnyOrigin().AllowAnyOrigin()));
             services.AddControllers();
             services.AddSwaggerGen(c =>
             {
@@ -42,6 +45,8 @@ namespace VideoGameManager
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            app.UseCors();
+
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();

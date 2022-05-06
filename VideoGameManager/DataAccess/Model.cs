@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 
 namespace VideoGameManager.DataAccess
 {
@@ -10,6 +11,7 @@ namespace VideoGameManager.DataAccess
         [MaxLength(150)]
         [Required]
         public string Name { get; set; } = string.Empty;
+        [JsonIgnore]
         public List<Game> Games { get; set; }
     }
 
